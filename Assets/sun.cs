@@ -10,6 +10,8 @@ public class sun : MonoBehaviour
             Transform transform = GetComponent<Transform>();
             Vector3 angle = new Vector3(0, y, 0);
             transform.Rotate(angle);
+            transform.Rotate(angle);
+            transform.Rotate(angle);
         }
     }
 
